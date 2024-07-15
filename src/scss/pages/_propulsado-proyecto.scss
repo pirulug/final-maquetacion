@@ -1,0 +1,28 @@
+#propulsado-proyecto {
+  // background: $color-primary;
+  padding: 5rem 0;
+  // color: #fff;
+
+  .empresas-logo {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+
+    img {
+      display: inline-block;
+      animation: marquee 5s linear infinite;
+      // margin-right: 1rem;
+      width: 180px;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  }
+}
