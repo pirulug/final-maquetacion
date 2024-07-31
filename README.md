@@ -1,6 +1,3 @@
-
-
-
 # Documentación de Diseño de Panic Flash Interactive
 
 ## Introducción
