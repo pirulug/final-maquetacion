@@ -1,9 +1,5 @@
 import "../scss/app.scss";
 
-// Bootstrap
-// import "./modules/bootstrap";
-// import "./modules/darkLigthMode";
-
 window.addEventListener("scroll", function () {
   const nav = document.querySelector(".barra-nav");
   if (window.scrollY > 50) {
